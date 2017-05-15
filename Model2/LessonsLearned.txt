@@ -1,0 +1,50 @@
+       Lessons Learned from Implementing Blockchain
+
+02/16/2017 For distribution of coins of denomination 1, transaction length grows linearly. The solution is to increase coin denomination sizes.  Higher denominations entail transactions that give 'change'. Managing a fixed denomination system, like the paper note and coin currency system, requires complexities of arithmetic. The general solution, as chosen by Bitcoin, is for any PayCoins transaction to mint a new coin value in the output, so long as the sum of inputs equals output to the designated payee plus change back to self.
+
+03/24/2017 Double spent coins and Counterfeit coins can each be separated from good coins in processing new transactions. 
+- Every good unspent coin appears once as an output to some transaction,
+- Every good spent coin appears once as an output and once as a subsequent input.
+- Every double spend appears once as an input and two or more times as subsequent outputs.
+- Every counterfeit coin appears as an input before it appears as an output.
+The corollary to this is that coins Created by the banker have zero in the input and coins in the output. Only the Banker is allowed to initiate these unbalanced transactions. In the normal case, coinvalues in the input and coin values in the output must match.
+
+Issues Addressed by each model:
+
+Model 1:
+  1) Genesis transaction
+  2) Creating Coinbase
+  3) Recognizing users in the system
+  4) Making payments and signing them
+     Architecture: Client - Listener - Payments Processing
+  5) Forming a ledger
+  6) Tracking Unspent Transaction Outputs (UTXOS)
+
+Model 2:
+  7) Change giving transactions (A pays B plus self)
+     - Transfer buffer size
+
+Model 3:
+  8) Organize spent transactions into Merkel Trees
+  9) Creating Blocks
+  10) Proof-of-work and the Nonce
+  11) Backchaining Block Hashes (The Blockchain)
+
+Model 4:
+  12) Communicating with Multiple Client/Wallets
+  13) Scripts and Multi-party transactions
+  14) Managing ledger bloat
+  15) Transacting with others: The Interledger
+
+Model 5:
+  16) Decentralizing Ledger updates
+  17) Exploring Broadcast, Multicast, Flooding models of distributed update
+
+Model 6:
+  18) Exploring Secrecy and Privacy
+
+
+Model 7:
+  19) Exploring non-financial trransactions
+
+ 

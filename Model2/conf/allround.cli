@@ -1,0 +1,9 @@
+PayCoins users/alice.conf 35 users/bob.pub
+PayCoins users/bob.conf 77 users/chaz.pub
+PayCoins users/chaz.conf 42 users/dave.pub
+PayCoins users/dave.conf 12 users/ellie.pub
+PayCoins users/ellie.conf 23 users/fiona.pub
+PayCoins users/fiona.conf 55 users/gary.pub
+PayCoins users/gary.conf 2 users/helen.pub
+PayCoins users/helen.conf 8 users/alice.pub
+Quit conf/twocoins.conf

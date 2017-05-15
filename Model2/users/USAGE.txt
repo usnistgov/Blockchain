@@ -1,0 +1,25 @@
+The public/private key pair of all users known to the 'currency'
+are created by the Python script 'enrol.py', as follows:
+
+$ python enrol.py alice
+creates the files: alice.pub and alice.priv, containing the public 
+and private key respectively.
+
+You have to manually create the config file 'alice.conf' containing:
+pubkey=users/alice.pub
+privkey=users/alice.priv
+
+The ubi program generates coins for every user in the 'users' directory,
+subject to configuration in ubi.conf.
+The coin program running in Autotest mode (./coin Autotest users 8)
+generates a round-robin of PayCoins transactions, pairwise among
+alice, bob, chaz, dave, ellie, fiona, gary, and helen.
+
+If you want to run a parallel ./coin client, it would be advisable to
+create a second users directory (so, users1 and users2), and use
+enrol.py to create more users key pairs. For example enrol.py for:
+ian, jill, kenji, luna, mheni, nada
+If the user directories are completely disjoint, there will be no
+mixing of the coinsets between users1 and users2. So it will be useful
+to have, for example, gary and helen present in both users and users2
+directories.
