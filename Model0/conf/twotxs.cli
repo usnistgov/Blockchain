@@ -1,0 +1,3 @@
+PayCoins users/dave.conf 2 users/ellie.pub
+PayCoins users/alice.conf 1 users/fiona.pub
+Quit conf/nocoins.conf

@@ -1,0 +1,28 @@
+2017-02-13 16:59:24.754926645 -0500 EST 
+Listener v2.0
+Config Values:
+	 ledge = blocks/ledger
+	 denom = 1
+	 newtxs = blocks/newtxs
+	 rejects = blocks/rejects
+	 ptrfile = blocks/currentptr
+	 pubkey = keys/public.key
+	 privkey = keys/private.key
+	 ubiers = users
+	 verbose = false
+	 timer = 0s
+	 coin = 0
+	 who = conf/onetime.conf
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Verified?  <nil>
+Masterpay Quitting: Authorized.

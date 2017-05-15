@@ -1,0 +1,7 @@
+PayCoins users/alice.conf 1 users/bob.pub
+PayCoins users/bob.conf 2 users/chaz.pub
+PayCoins users/chaz.conf 3 users/dave.pub
+PayCoins users/dave.conf 4 users/ellie.pub
+PayCoins users/ellie.conf 5 users/fiona.pub
+PayCoins users/fiona.conf 6 users/alice.pub
+Quit conf/twocoins.conf

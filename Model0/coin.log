@@ -1,0 +1,150 @@
+Sending GetBalance for users/alice.conf
+Verified?  <nil>
+Transaction Completed.: My (users/alice.conf) Balance = 5
+BuildPay: All My Coins:
+Id/Seq: 1487013931775/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487013935375/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487014418494/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487014442399/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487016554599/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013931775/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+BuildPay: paying these 1 coins:
+Id/Seq: 1487013931775/0 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyzMq7gawMJB0+bfW7uEMTPXY2AwjfOwoECafWCGiFHa64XMMI7Kq9ignR/TpZ3HZKcTWbHWUA6cgWT5acWkHo7ZPIK3VYfBDkeFLnoq7H+B2LreOKWENDSKtto/KGK5cPf4FhBzY0GIp4Dus+yJJMvAikpQ7mCoV/k8BHjRCddwIDAQAB
+Sending PayCoins for users/alice.conf
+Verified?  <nil>
+Transaction Completed.
+Id/Seq: 1487013931775/0 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Sending GetBalance for users/bob.conf
+Verified?  <nil>
+Transaction Completed.: My (users/bob.conf) Balance = 6
+BuildPay: All My Coins:
+Id/Seq: 1487013922855/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1487013931775/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1487013935375/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1487014418494/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1487014442399/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+Id/Seq: 1487016554599/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013922855/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013931775/1 Denom: 1 Owner: XLuz8UFclr6s1FEkvpXpT0XvBi9/pbwvbj/MuNNXbIk=
+BuildPay: paying these 2 coins:
+Id/Seq: 1487013922855/1 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+Id/Seq: 1487013931775/1 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMym0hgwRlSG8MbefoMEp31YNYMlwOg5omqfBXpmspAXCF4F8c6H2jLSsyx7NYxmMBsdvMjzGLRJvOL2Hp0x/JQpCuFA++4EpNlgKRv2FZOyGDbdZH7xeqe9Lh9ysWpmTHMEOJaGbcjxewbF1eTlnWHabgwI1rfOFn3wHt3tJYXwIDAQAB
+Sending PayCoins for users/bob.conf
+Verified?  <nil>
+Transaction Completed.
+Id/Seq: 1487013922855/1 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1487013931775/1 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Sending GetBalance for users/chaz.conf
+Verified?  <nil>
+Transaction Completed.: My (users/chaz.conf) Balance = 6
+BuildPay: All My Coins:
+Id/Seq: 1487013922855/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1487013931775/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1487013935375/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1487014418494/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1487014442399/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+Id/Seq: 1487016554599/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013922855/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013931775/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013935375/2 Denom: 1 Owner: 2MwzAJ7XnQWZlHqmX30V8swXZBWCVNoCjV/Rr8i1Nsk=
+BuildPay: paying these 3 coins:
+Id/Seq: 1487013922855/2 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+Id/Seq: 1487013931775/2 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+Id/Seq: 1487013935375/2 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDknJU8f+BCmb9RvZK/ChvFqw4RDtLtUFdyu7FfF/33clJ8liWUNSwQp/D+xfGVYh+7/Q+pmscCcTPWrGS4s6ChVusiYt0BTyCNi48ypEqqissHjgCRNkXHcFhfSsD9kvj7HEa4iZSzNRVmjxhs8Rd/PLWkCkAPW0KW1p9rjOFgDwIDAQAB
+Sending PayCoins for users/chaz.conf
+Verified?  <nil>
+Transaction Completed.
+Id/Seq: 1487013922855/2 Denom: 1 Owner: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1487013931775/2 Denom: 1 Owner: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1487013935375/2 Denom: 1 Owner: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Sending GetBalance for users/dave.conf
+Verified?  <nil>
+Insufficient Funds: Payment Blocked.Transaction Completed.
+Id/Seq: 1487014442399/3 Denom: 1 Owner: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Id/Seq: 1487016554599/4 Denom: 1 Owner: /4fvUkjGwRpPHccD456RDcSJ2UhIo/88mRdlAQlDg8U=
+Sending GetBalance for users/ellie.conf
+Verified?  <nil>
+Transaction Completed.: My (users/ellie.conf) Balance = 8
+BuildPay: All My Coins:
+Id/Seq: 1487013922855/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487013931775/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487013935375/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487013935375/4 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487014418494/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487014418494/4 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487014442399/4 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+Id/Seq: 1487016554599/5 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013922855/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013931775/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013935375/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013935375/4 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487014418494/3 Denom: 1 Owner: tGjSEmtsm4D8A4M38GwE2j7RwmLyoIXzpLdOmYNQSvs=
+BuildPay: paying these 5 coins:
+Id/Seq: 1487013922855/3 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+Id/Seq: 1487013931775/3 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+Id/Seq: 1487013935375/3 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+Id/Seq: 1487013935375/4 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+Id/Seq: 1487014418494/3 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIZxEO9zixB9BeVjAvmOrd12ImXC03JxNfhGLOHOMtYLhqFLIlKi3Uo2xo0aoqngi0b9KQiVOEWlEESEZmanlKd90ZzA9NhYFrystpi/o7CMd1hX8qrBFEzkVC2dvBxVczhvEHbJkTBR4hGplh+3xxY0cZoCifaWSWYhO9bMWnLQIDAQAB
+Sending PayCoins for users/ellie.conf
+Verified?  <nil>
+Transaction Completed.
+Id/Seq: 1487013922855/3 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013931775/3 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013935375/3 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013935375/4 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487014418494/3 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Sending GetBalance for users/fiona.conf
+Verified?  <nil>
+Transaction Completed.: My (users/fiona.conf) Balance = 9
+BuildPay: All My Coins:
+Id/Seq: 1487013922855/0 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013922855/4 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013922855/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013931775/4 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013931775/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487013935375/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487014418494/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487014442399/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+Id/Seq: 1487017219266/0 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013922855/0 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013922855/4 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013922855/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013931775/4 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013931775/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: Next Coin Added:
+Id/Seq: 1487013935375/5 Denom: 1 Owner: vK1HKsiLlBwYMsv10Dl1XUcVZMH4icd3Mh48vjbhSKs=
+BuildPay: paying these 6 coins:
+Id/Seq: 1487013922855/0 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+Id/Seq: 1487013922855/4 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+Id/Seq: 1487013922855/5 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+Id/Seq: 1487013931775/4 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+Id/Seq: 1487013931775/5 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+Id/Seq: 1487013935375/5 Denom: 1 Owner: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChw+/3t6K8N30eKEbYaE0ptaDqOEONobsQZ+blpwl7ADPgqS+qxi6pXt1meR8WybK/I71OZM6fhqgjr5dLK1+GF8fkeaeBbU/YGYVP2ChJ1dp/Ju7ku3KfgEYyL48d2AuwDSAyxkYyffwbGIiJg3Li+SPBvRLUigazPvPxCtlCMwIDAQAB
+Sending PayCoins for users/fiona.conf
+Verified?  <nil>
+Transaction Completed.
+Id/Seq: 1487013922855/0 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487013922855/4 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487013922855/5 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487013931775/4 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487013931775/5 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Id/Seq: 1487013935375/5 Denom: 1 Owner: wVWP7p4V3HySQbDGQjDi2kMqQR1HvnX3sqBvdoWtC7E=
+Sending Quit for conf/twocoins.conf
+
+Listener going away.
