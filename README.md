@@ -12,17 +12,6 @@ We hope that this will offer the curious a path to understanding Bitcoin, and co
 All the early models in this repository are centralized. A summary of the existing models is:
 
 Model 0:  introduces immutable coins, identified by transaction ID, with ownership identified by hash. The ledger is a linear list. The outputs are signed by the sender to indicate transfer of ownership. README0.txt inside this folder explains how the original model works.
-ThisBlockHash: 0078tnuxo/73t2a23eORhWEYK5Ia2O7uiKEN+CS2+Fs=
-Block: 1492759091099
-	Version: 1, BlockTime: 1492759091099, Nbits: 007, Nonce: 103950
-	LastBlockHash: 0
-	MerkleHash: zpgFzEMF1u/i4uJvfMrS1a/quo51lO1F6QMAgacB0Ro=
-
-ThisBlockHash: 007U+xWZylTpz5/r/KU809k4Rb1VDk6jNfda7Pgt+0Y=
-Block: 1492759092538
-	Version: 1, BlockTime: 1492759092538, Nbits: 007, Nonce: 379710
-	LastBlockHash: 0078tnuxo/73t2a23eORhWEYK5Ia2O7uiKEN+CS2+Fs=
-	MerkleHash: pSRHTig1Ew81nq4h0rceUQrUxXoGRtrpjp3O+XyHy5Y=
 
 Model 1: introduces transactions that aggregate value in one, or few, coins, where the sender pays the receiver and gives 'change' back to himself.  README1.txt inside this folder explains how the first upgrade works.
 
