@@ -1,5 +1,4 @@
-Model 0.0 (February 19, 2017)
------------------------------
+# Model 0.0
 
 Initial versions of the client, listener and blockchain clearing
 process.
@@ -21,31 +20,25 @@ process.
     coins. In this initial version, there is one coin of denomination 1,
     per input. In order to pay 3 coins, alice inquires her balance, and
     if it exceeds 3, takes 3 coins and signs them over to chaz.
-
   - Balance: commands of the form `"Balance alice.conf", ./coin`
     creates a transaction of type Balance, with zero inputs and zero outputs,
     and signs it.
-
   - Transactions: commands of the form `"Transactions chaz.conf", ./coin`
     creates a transaction of type Transactions, with zero inputs and
     zero outputs, and signs it. This yields a list of all transactions
     the user participates in, as Input giver (debits) or Output receiver
     (credits).
-
   - CreateCoins: commands of the form `"CreateCoins 20 1 scrooge.conf", ./coin`
     creates a transaction of type CreateCoins, with zero inputs and
     20 outputs of denomination 1 each, and signs it. The signature must be
     that of scrooge the banker.
-
   - Quit: commands of the form `"Quit scrooge.conf", ./coin` creates a
     transaction of type Quit, with zero inputs and outputs, and signs it.
     The signature must be that of scrooge, the banker, the only party
     empowered to shut down the listener.
-
   - Multitest: commands of the form `"Multitest oneround.cli", ./coin` parses
     the file of commands (PayCoins, CreateCoins, Quit, etc), and executes
     them sequentially.
-
   - Autotest: commands of the form `"Autotest users", ./coin` constructs a
     list of PayCoins commands with a round-robin of all combinations of
     the known users as payer and payee, with random payment values within
@@ -65,20 +58,17 @@ process.
     transaction. `genesis.go` creates that. This will provide a termination
     point to the blockchain, once backward chaining hash pointers are in
     effect.
-
   - Coinage is created by the central banker with specific CreateCoins
     commands. In this version, all coins are of denomination 1, and
     payments are made by listing together a set of coins owned by the
     intending sender. The banker generates a sufficient set of coins via
     CreateCoins, for later distribution.
-
   - Coins are distributed equally from the stock held by the banker, among
     all known recipients, with the UBI or Universal Basic Income program.
     Input and Output coin quantities are equally balanced in a PayCoins
     transaction, signed over to the new recipient by the banker. The
     remainder left over after distribution is retained by the banker, until
     after the next CreateCoins and UBI command executions.
-
   - The paycoins process is run as a cronjob to periodically process new
     transactions approved by masterpay, the listener. PayCoins transactions
     are approved (mostly: insufficient funds and double spend attempts
@@ -88,7 +78,6 @@ process.
     backward chained hash pointers implementing a blockchain, will be
     realized in a subsequent version.
 
-
 - Ancillary tools include: `listall.go`,
                            `sum.go`,
                            `balances.go`,
@@ -97,14 +86,11 @@ process.
   - `listall.go <ledger or newtxes>`: do a full print of the fields in
     every transaction in the ledger, or every new transaction to be
     processed.
-
   - `sum.go <ledger or newtxes>`: summarize each transaction on one line,
     with Id/Seq, transaction name, verification status, #of inputs,
     #of outputs, short pub key Id.
-
   - `balances.go`: list the balance of all accounts in the system,
     including the banker's (undistributed) balance.
-
   - `mycoins.go <my public key file>`: list the balance of the account
     idetified by public key file.
 
@@ -178,6 +164,7 @@ process.
 ```
 
 - Additional client-listener 'protocol' transactions:
+
   - Quit, Balance, Transactions are created in the format of a Currency
   system transaction, with Inputs, Outputs and a Signature.
   - Error, PayeeReceipt and CreateReceipt are replies from the Listener
