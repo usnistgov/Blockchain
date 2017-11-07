@@ -56,6 +56,6 @@ Individual Golang module functions are illuminated by:
 $ python helpers.py unblock.go (or genesis.go, or ...)
 ```
 
-[btc]: https://github.com/btcsuite/btcd
+[btcd]: https://github.com/btcsuite/btcd
 [go]: https://golang.org/
 
